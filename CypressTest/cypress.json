@@ -2,5 +2,8 @@
     "baseUrl": "https://www.google.com",
     "integrationFolder": "assessment",
     "pluginsFile": "cypress/plugins/index.js",
-	"supportFile": "cypress/support/index.js"
+	"supportFile": "cypress/support/index.js",
+    "price": {
+        "stuffedFrog": "$10.99"
+    }
 }
