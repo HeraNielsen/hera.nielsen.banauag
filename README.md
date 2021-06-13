@@ -47,15 +47,19 @@
     1. I will have this one place/machine/cloud that all the code and scripts are located.
     2. There will be different server machines/computers where automation tool server is running
     3. Then configurations to execute the tests in #2
-
-                        Main Machine(containing code/scripts)
-                      /      				    |    					            \
-            Server 1(Cypress)       Server 2(Selenium) 				  Server 3(cucumber)
-            /            \				   / 				      \				     /				          \
-  Integration    Integration 		Regression 		Regression		UAT for  		     UAT for browser 			
-  test on    	   	test on 	     on mobile 		on desktop     Mobile IOS
-    Chrome        Safari
     
+```
+                                Main (containing code/scripts)
+                      /                   |                       \
+            Server 1(Cypress)       Server 2(Selenium)          Server 3(cucumber)
+            /            \          /             \              /            \
+    Integration    Integration    Regression    Regression    UAT for       UAT for browser 			
+     test on        test on       on mobile     on desktop   Mobile IOS
+    Chrome         Safari
+
+```
+
+
     More details to #1:
     1. Let's say Jenkins. Dev will push their codes. Jenkins will run and distribute them to containers(ex: docker) and update the servers accordingly.
 
