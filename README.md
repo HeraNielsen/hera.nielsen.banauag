@@ -34,16 +34,19 @@
 
 [Question] Jupiter Toy is expected to grow & expand its offering into books, tech and modern art. We are expecting  the test to grow to a very large numbers
   - What approach could be used to reduce overall execution time
+  
   [Answer] 
-    ~ Use Jenkins to schedule stable or existing tests execution probably at night. This will also update server environment.
-    ~ headless  testing will also reduce execution time
-    ~ Introduce test modularization. Break the tests into sets and subsets, look at similar test cases, reuse.
-      ~ can do parallel testing
-    ~ Choose which tests to run based on what has changed or added.
-    ~ Ownership. Dedicated testers per offering(toy,books,tech,modern art)
-    ~ Software Testing Metrics(useful for most susceptible to defects so can allocate people in where it is needed.) 
+  
+    1. Use Jenkins to schedule stable or existing tests execution probably at night. This will also update server environment.
+    2. headless  testing will also reduce execution time
+    3. Introduce test modularization. Break the tests into sets and subsets, look at similar test cases, reuse.
+      3.1. can do parallel testing
+    4. Choose which tests to run based on what has changed or added.
+    5. Ownership. Dedicated testers per offering(toy,books,tech,modern art)
+    6. Software Testing Metrics(useful for most susceptible to defects so can allocate people in where it is needed.) 
 
-    - How will your framework cater to this?
+   - How will your framework cater to this?
+   
     1. I will have this one place/machine/cloud that all the code and scripts are located.
     2. There will be different server machines/computers where automation tool server is running
     3. Then configurations to execute the tests in #2
