@@ -26,3 +26,7 @@
 Cypress.Commands.add("contact_page", () => {
     cy.visit('https://jupiter.cloud.planittesting.com/#/contact')
 })
+
+Cypress.Commands.add("shop_page", () => {
+    cy.visit('https://jupiter.cloud.planittesting.com/#/shop')
+})
