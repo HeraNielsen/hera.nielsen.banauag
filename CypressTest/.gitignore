@@ -4,3 +4,4 @@ cypress/reports
 cypress/videos 
 cypress/screenshots 
 cypress/integration/examples
+cypress/fixtures/example.json

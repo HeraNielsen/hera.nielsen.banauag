@@ -23,3 +23,6 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+Cypress.Commands.add("contact_page", () => {
+    cy.visit('https://jupiter.cloud.planittesting.com/#/contact')
+})
