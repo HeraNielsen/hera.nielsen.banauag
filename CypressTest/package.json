@@ -1,0 +1,25 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "Automation assessment",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^7.5.0"
+  },
+  "scripts": {
+    "cy:install": "npm install --save-dev cypress",
+    "cy:open": "npx cypress open",
+    "cy:run:test": "npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeraNielsen/hera.nielsen.banauag.git"
+  },
+  "author": "HeraNielsenBanauag",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HeraNielsen/hera.nielsen.banauag/issues"
+  },
+  "homepage": "https://github.com/HeraNielsen/hera.nielsen.banauag#readme"
+}

@@ -1,0 +1,6 @@
+# Dependency directory 
+node_modules
+cypress/reports 
+cypress/videos 
+cypress/screenshots 
+cypress/integration/examples
